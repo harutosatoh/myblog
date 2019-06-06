@@ -1,0 +1,60 @@
+main{
+  text-align:center;
+  
+}
+
+
+
+.main-picture img{
+  width:500px;
+  height:500px;
+  max-width:33%;
+}
+.main-picture{
+  text-align:center;
+  margin-top:50px;
+}
+
+.btn{
+  display:inline-block;
+  background-color:white;
+  color:black;
+  height:20px;
+  width:180px;
+  text-decoration:none;
+  padding:10px;
+  margin-left:10px;
+  opacity:0.8;
+  box-shadow:5px 5px gray;
+  font-family:"Book Antiqua";
+}
+
+.text{
+  font-family:"Book Antiqua";
+}
+
+
+
+.photo{
+
+
+}
+
+.other{
+
+}
+
+.diary{
+
+}
+
+.btn:active{
+  background-color:gray;
+  opacity:0.8;
+  position:relative;
+  top:5px;
+  box-shadow:none;
+}
+.btn:hover{
+  transition:all 0.2s;
+}

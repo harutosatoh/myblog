@@ -1,0 +1,58 @@
+body{
+  font-family:"Book Antiqua"
+}
+
+
+
+header{
+  background-color:black;
+  height:90px;
+
+}
+.header-title h1{
+  padding-top:15px;
+  color:white;
+  padding-right:650px;
+  float:right;
+}
+
+.header-left a{
+  display:block;
+  position:absolute;
+  height:40px;
+  width:100px;
+  text-align:center;
+  background-color:gray;
+  color:white;
+  text-decoration:none;
+  margin-top:20px;
+  margin-left:50px;
+  padding-top:10px;
+}
+
+.header-left a:hover{
+  transition:all 0.2s;
+  background-color:white;
+  color:black;
+}
+
+.header-left a:active{
+  transition:all 0.2s;
+  background-color:black;
+}
+
+
+main{
+  background-image:url("matsushima.jpg");
+  height:690px;
+  background-size:cover;
+}
+
+.textbox{
+  margin:none;
+}
+
+*{
+  margin:0;
+  padding:0;
+}
